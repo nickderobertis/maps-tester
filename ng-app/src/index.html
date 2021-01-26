@@ -12,15 +12,15 @@
     <script>
       !(function () {
         var e,
-          t = "https://claimfound.com",
+          t = "http://localhost",
           r =
             document.currentScript ||
             (e = document.getElementsByTagName("script"))[e.length - 1],
-          n = document.querySelector("head"),
-          s = document.createElement("link");
-        (s.rel = "stylesheet"),
-          (s.href = t + "/css/styles.css"),
-          n.appendChild(s);
+          s = document.querySelector("head"),
+          n = document.createElement("link");
+        (n.rel = "stylesheet"),
+          (n.href = t + "/css/styles.css"),
+          s.appendChild(n);
         var c = document.createElement("script");
         (c.type = "text/javascript"),
           (c.src = t + "/js/webpack-runtime.js"),
